@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+/* Buttons
+*/
+body {
+  
+  background: #151515 url("../images/bkg.png") 0 0;
+  color: #eaeaea;
+  
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+
+#lastm{
+position:absolute;
+
+right:10px;  
+font-weight: normal;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #b5e853;
+  letter-spacing: -0.03em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);	
+}
+
+#downloads .btn {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+}
+
+.elsobal{
+	float:left;
+	width: auto;
+	
+	border-width:1px; 
+	border-style:solid; 
+	border-color: gray silver; 
+	background-color:#aaaaaa;
+	text-align:left;
+	padding-left:5px; padding-right:5px; padding-top:5px; padding-bottom:5px;
+}
+
+.elsojobb{
+	float:left; /* lebegő, balra gravitál */
+	width: auto; /* szélesség: 118px, ez így jön ki: 960:8=120, 960:a tartalmazó div szélessége, 8 oszlopot szeretnénk, 1-1 px a keret vastagsága*/
+	
+	border-width:1px; /* a div keretének vastagsága */
+	border-style:solid; /* a div keretvonalának stílusa */
+	border-color:#aaaaaa; /* a div keretvonalának színe */
+	background-color:#ffffff; /* a div háttérszíne */
+	text-align:left; /* a div-ben lévő szöveg középre igazodjon*/
+	padding-left:5px; padding-right:5px; padding-top:5px; padding-bottom:5px;
+
+}
+
+
+.btn {
+  display: inline-block;
+  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
+  padding: 8px 18px;
+  border-radius: 50px;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+  border-top: 2px solid rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.btn:hover {
+  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
+}
+
+.btn .icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 1px 8px 0 0;
+  float: left;
+}
+
+.btn-github .icon {
+  opacity: 0.6;
+  background: url("../images/blacktocat.png") 0 0 no-repeat;
+}
