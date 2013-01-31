@@ -32,7 +32,7 @@ font-weight: normal;
 
 .elsobal{
 	float:left;
-	width: auto;
+	width: 480px;
 	
 	border-width:1px; 
 	border-style:solid; 
@@ -44,7 +44,7 @@ font-weight: normal;
 
 .elsojobb{
 	float:left; /* lebegő, balra gravitál */
-	width: auto; /* szélesség: 118px, ez így jön ki: 960:8=120, 960:a tartalmazó div szélessége, 8 oszlopot szeretnénk, 1-1 px a keret vastagsága*/
+	width: 480px; /* szélesség: 118px, ez így jön ki: 960:8=120, 960:a tartalmazó div szélessége, 8 oszlopot szeretnénk, 1-1 px a keret vastagsága*/
 	
 	border-width:1px; /* a div keretének vastagsága */
 	border-style:solid; /* a div keretvonalának stílusa */
