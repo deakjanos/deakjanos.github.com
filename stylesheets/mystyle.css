@@ -32,7 +32,7 @@ font-weight: normal;
 
 .elsobal{
 	float:left;
-	width: 480px;
+	width: auto;
 	
 	border-width:1px; 
 	border-style:solid; 
